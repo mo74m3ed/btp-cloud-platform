@@ -1104,6 +1104,10 @@ eu-central-1
 
 35.159.192.144/28
 
+**cf-eu10-006:**
+
+5.60.98.64/27
+
 </td>
 <td valign="top">
 
@@ -1124,6 +1128,10 @@ eu-central-1
 **cf-eu10-005:**
 
 3.78.172.245, 3.122.31.132, 18.193.56.244, 3.40.3.184/29
+
+**cf-eu10-006:**
+
+18.96.47.136/29, 18.96.47.136, 18.96.47.137, 18.96.47.138
 
 </td>
 <td valign="top">
@@ -1148,6 +1156,10 @@ api.cf.eu10-004.hana.ondemand.com
 
 api.cf.eu10-005.hana.ondemand.com
 
+**cf-eu10-006:**
+
+api.cf.eu10-006.hana.ondemand.com
+
 </td>
 <td valign="top">
 
@@ -1170,6 +1182,10 @@ eu10-004.hana.ondemand.com
 **cf-eu10-005:**
 
 eu10-005.hana.ondemand.com
+
+**cf-eu10-006:**
+
+eu10-006.hana.ondemand.com
 
 </td>
 <td valign="top">
