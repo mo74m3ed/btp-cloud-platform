@@ -12,7 +12,7 @@ To use the OpenTelemetry Protocol \(OTLP\) for sending logs, you must migrate yo
 
 -   You have an active Kyma cluster with the Telemetry module added.
 
--   Your observability backend has an OTLP ingestion endpoint.
+-   Your observability backend has an OTLP ingestion endpoint. If your backend doesn't support OTLP natively, you must run a custom OTel Collector as gateway between the Telemetry module and the target backend.
 
 -   You have one or more `LogPipeline` resources that use the `http` output.
 
@@ -55,7 +55,7 @@ See how the deprecated fields map to their new OTLP-based counterparts:
 <tr>
 <th valign="top">
 
-**Deprecated Field**
+Deprecated Field
 
 </th>
 <th valign="top">

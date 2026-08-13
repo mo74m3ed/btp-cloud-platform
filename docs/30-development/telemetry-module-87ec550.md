@@ -123,9 +123,9 @@ To define how to collect, process, and ship a specific signal, use the pipeline 
 
 To assign access permissions to the Telemetry module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles):
 
--   `kyma-telemetry-view` to grant read-only access
+-   `kyma-telemetry-view` - Grants read-only access to the Telemetry custom resources.
 
--   `kyma-telemetry-edit` to grant write access
+-   `kyma-telemetry-edit` - Grants write access to the Telemetry custom resources
 
 
 

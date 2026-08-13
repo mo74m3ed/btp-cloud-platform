@@ -58,7 +58,7 @@ Enterprise account
 
 Partner Test, Demo, and Development account
 
-Trial account
+Trial account [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)
 
 </td>
 <td valign="top">
@@ -204,6 +204,42 @@ US East \(VA\)
 `azure_lite`
 
 `build-runtime-azure`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
+us22
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-us22
+
+</td>
+<td valign="top">
+
+US East 2 \(VA\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+`azure_lite`
 
 </td>
 </tr>
@@ -484,7 +520,7 @@ cf-cn20
 </td>
 <td valign="top">
 
-China \(North 3\) [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
+China \(North 3\) [<sup>2</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
 
 </td>
 <td valign="top">
@@ -498,7 +534,7 @@ China \(North 3\) [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loi
 
 Enterprise account
 
-Trial account
+Trial account [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)
 
 </td>
 <td valign="top">
@@ -536,7 +572,7 @@ US East \(VA\)
 
 Enterprise account
 
-Trial account
+Trial account [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)
 
 </td>
 <td valign="top">
@@ -1520,7 +1556,10 @@ China \(Shanghai\)
 </table>
 
 > ### Note:  
-> <sup>1</sup> This region is available only in the BTP region cf-cn20 and is the sole region available within the Microsoft Azure \(`azure`\) plan in China.
+> <sup>1</sup> A trial Kyma instance is available only on request. For more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md).
+
+> ### Note:  
+> <sup>2</sup> This region is available only in the BTP region cf-cn20 and is the sole region available within the Microsoft Azure \(`azure`\) plan in China.
 
 
 
@@ -1557,12 +1596,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="15">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="15">
 
 `azure`
 
@@ -1591,6 +1630,18 @@ US Central \(IA\)
 <td valign="top">
 
 US East \(VA\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eastus2`
+
+</td>
+<td valign="top">
+
+US East 2 \(VA\)
 
 </td>
 </tr>
@@ -1729,12 +1780,12 @@ Canada \(Toronto\)
 <tr>
 <td valign="top">
 
-`chinanorth3` [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
+`chinanorth3` [<sup>2</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
 
 </td>
 <td valign="top">
 
-China \(North 3\) [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
+China \(North 3\) [<sup>2</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
 
 </td>
 </tr>

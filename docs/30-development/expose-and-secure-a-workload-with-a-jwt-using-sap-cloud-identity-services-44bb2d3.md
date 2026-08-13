@@ -109,7 +109,7 @@ To configure the flow in Kyma, you must first provide credentials for a supporte
     </td>
     <td valign="top">
     
-    A subdomain created under the parent domain, specifically for the mTLS Gateway.
+    A subdomain created under the parent domain, specifically for the TLS Gateway.
     
     </td>
     </tr>
@@ -126,7 +126,7 @@ To configure the flow in Kyma, you must first provide credentials for a supporte
     </td>
     <td valign="top">
     
-    A wildcard domain covering all possible subdomains under the TLS subdomain. When configuring the Gateway, this allows you to expose workloads on multiple hosts \(for example, `httpbin.mtls.my-own-domain.example.com`, `test.httpbin.mtls.my-own-domain.example.com`\) without creating separate Gateway rules for each one.
+    A wildcard domain covering all possible subdomains under the TLS subdomain. When configuring the Gateway, this allows you to expose workloads on multiple hosts \(for example, `httpbin.tls.my-own-domain.example.com`, `test.httpbin.tls.my-own-domain.example.com`\) without creating separate Gateway rules for each one.
     
     </td>
     </tr>

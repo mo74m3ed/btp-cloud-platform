@@ -17,7 +17,7 @@ The following example shows a container `myContainer` in Pod `myPod`, running in
   "level": "warn",
   "message": "This is the original message",
   "tenant": "myTenant",
-  "traceID": "123"
+  "trace_id": "123"
 }
 
 ```
@@ -35,7 +35,7 @@ The log agent reads the log message from a log file managed by the container run
   "time": "2022-05-23T15:04:52.193317532Z",
   "stream": "stdout",
   "_p": "F",
-  "log": "{\"level\": \"warn\",\"message\": \"This is the original message\",\"tenant\": \"myTenant\",\"trace_id\": \"123\"}"
+    "log": "{\"level\": \"warn\",\"message\": \"This is the original message\",\"tenant\": \"myTenant\",\"trace_id\": \"123\"}"
 }
 
 ```
@@ -103,7 +103,7 @@ After JSON parsing, the OTLP record looks like the following example:
 
 ## Severity Parsing
 
-Typically, a log message includes a log level in the `level` field. Based on this, the agent parses the `level` log attribute with a severity parser. If parsing succeeds, the agent transforms the log attribute into the OTel attributes `severityText` and `severityNumber`.
+Typically, a log message includes a log level in the `level` or `log.level` field. If both are present, `log.level` takes precedence. Based on the matching field, the agent parses it with a severity parser. If parsing succeeds, the agent transforms the log attribute into the OTel attributes `severityText` and `severityNumber`.
 
 
 
@@ -151,7 +151,7 @@ At this point, before further enrichment, the resulting overall log record looks
   "body": "This is the original message",
   "severityNumber": 13,
   "severityText": "warn",
-  "trace_id": 123
+  "traceId": "123"
 }
 
 ```

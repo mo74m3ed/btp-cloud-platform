@@ -49,11 +49,19 @@ By default, the SAP BTP Operator module consumes SAP BTP services from the subac
 
 The SAP BTP Operator module provides and retrieves the initial credentials that your application needs to use an SAP BTP service.
 
-![](images/SAP_BTP_Operator_Architecture_315a173.svg)
+  
+  
+**SAP BTP Operator Architecture**
+
+
 
 Depending on the number of configured Secrets, SAP BTP Operator can have access to multiple subaccounts within your cluster.
 
-![](images/Access_Configuration_1254684.svg)
+  
+  
+**Access Configuration**
+
+
 
 For more information on multitenancy, see [Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md).
 
@@ -119,6 +127,17 @@ See the documentation related to the BtpOperator custom resource \(CR\):
 
 -   [Service Binding Custom Resource](https://kyma-project.io/#/btp-manager/user/resources/02-30-service-binding-cr)
 
+
+
+
+<a name="loio50347eaa4f174ba782f89a00b1f2eac0__section_authorization_btpoperator"/>
+
+## Authorization
+
+To assign access permissions to the SAP BTP Operator module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles):
+
+-   `kyma-btp-operator-view` - Grants read-only access to BtpOperator, ServiceInstance, and ServiceBinding CRs and their status.
+-   `kyma-btp-operator-edit` - Grants full access to BtpOperator, ServiceInstance, and ServiceBinding CRs and read-only access to their status.
 
 
 

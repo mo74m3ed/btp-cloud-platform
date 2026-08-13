@@ -80,13 +80,18 @@ No
 </td>
 <td valign="top">
 
-Comma-separated list of image URL prefixes for which the signature verification should be skipped. With that, you can configure exceptions for selected images, registry folders, or whole registries. For example, to let Warden skip the verification of the `foo:0.0.1` and `bar:0.0.1` images \(and tags\) use the following value:
+Comma-separated list of image URL prefixes for which the signature verification should be skipped. With that, you can configure exceptions for selected images, registry folders, or whole registries.
 
-`acme.common.repositories.cloud.sap/foo:0.0.1, acme.common.repositories.cloud.sap/bar:0.0.1`
+> ### Example:  
+> To let Warden skip the verification of the `foo:0.0.1` and `bar:0.0.1` images \(and tags\), use the following value:
+> 
+> `acme.common.repositories.cloud.sap/foo:0.0.1, acme.common.repositories.cloud.sap/bar:0.0.1`
+> 
+> To skip all images from a given registry, use:
+> 
+> `acme.common.repositories.cloud.sap/`
 
-To skip all images from a given registry, use:
 
-`acme.common.repositories.cloud.sap/`
 
 </td>
 <td valign="top">

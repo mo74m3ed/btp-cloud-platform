@@ -125,7 +125,7 @@ Apply the Istio `Telemetry` resource to specific namespaces
 </tr>
 </table>
 
-\* The `application` input provides an additional `containers` selector that behaves the same way as the `namespaces` selector.
+\* The `runtime` input provides an additional `containers` selector that behaves the same way as the `namespaces` selector.
 
 
 

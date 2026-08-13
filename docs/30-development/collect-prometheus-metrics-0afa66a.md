@@ -125,7 +125,7 @@ Set the HTTP path for the metrics endpoint.
 </td>
 <td valign="top">
 
-*https-metrics* \(default with Istio\), *http* \(default without Istio\)
+*https* \(default with Istio\), *http* \(default without Istio\)
 
 </td>
 <td valign="top">
