@@ -2039,6 +2039,7 @@
         -   [Kyma Modules' Sizing](50-administration-and-ops/kyma-modules-sizing-3a92490.md)
         -   [Change Storage Size in Kyma](50-administration-and-ops/change-storage-size-in-kyma-027f5e2.md)
         -   [Assigning Workloads to Worker Node Pools](50-administration-and-ops/assigning-workloads-to-worker-node-pools-1bf21c1.md)
+        -   [Adapting Your Workloads to Kyma Landscape Requirements](50-administration-and-ops/adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md)
         -   [Admission Policies](50-administration-and-ops/admission-policies-2e02ddb.md)
         -   [Kyma Runtime with Dual-Stack Support](50-administration-and-ops/kyma-runtime-with-dual-stack-support-c9811ea.md)
         -   [Ingress and Egress IP Addresses](50-administration-and-ops/ingress-and-egress-ip-addresses-4d6a98c.md)
