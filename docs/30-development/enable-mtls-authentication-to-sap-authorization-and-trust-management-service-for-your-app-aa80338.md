@@ -37,7 +37,7 @@ To handle tokens, use:
 
 ## Context
 
-Use the same procedure as outlined in [Add Authentication and Functional Authorization Checks to Your Application](add-authentication-and-functional-authorization-checks-to-your-application-0a69484.md). Modify this procedure with the following steps.
+Use the same procedure as outlined in [Using an Application Security Descriptor File](using-an-application-security-descriptor-file-0a69484.md). Modify this procedure with the following steps.
 
 Be mindful of whether you're updating an existing application or starting with a brand new development.
 

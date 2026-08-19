@@ -42,6 +42,9 @@ When developing tenant-aware applications in the Cloud Foundry environment, keep
         > 
         > The URL must be in the format: `https://<SUBSCRIBER_TENANT_SUBDOMAIN >-<APPROUTER_APPLICATION_HOST>.<CF_DOMAIN>`
 
+        > ### Note:  
+        > The first segment of the URL must not exceed 63 characters \(DNS host label limit\). Consider using shorter names or explicitly setting a custom route to avoid truncation. For details, see [Routes](routes-53daaaf.md).
+
     -   To inform the application that a tenant has revoked its subscription to the multitenant application and is no longer allowed to use it, implement the same callback with the `DELETE` method.
 
         > ### Sample Code:  

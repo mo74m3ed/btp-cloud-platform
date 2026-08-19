@@ -54,9 +54,7 @@ XSJS applications use the [@sap/fibers](https://www.npmjs.com/package/@sap/fiber
 
 ### Solution
 
-To keep your XSJS applications up and running on latest Node.js versions, you need to migrate them to the new XSJS layer with an asynchronous API. To learn how to do this, see:
-
--   [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
+To keep your XSJS applications up and running on latest Node.js versions, you need to migrate them to the new XSJS layer with an asynchronous API. See:
 
 -   [SAP HANA 2 - ASYNC XS JavaScript API Reference](https://help.sap.com/doc/215e6913c0e44223b2842f16c927ec6d/2.0.07/en-US/index.html)
 
@@ -79,7 +77,7 @@ Nevertheless, this approach can only be used as a temporary solution, until you 
 
 <a name="loio1462ff0fa7f04839a96c51d968d15b34__section_np5_node_bbb"/>
 
-## Node.js 16 has reached end of life
+## Node.js 16 reached end of life
 
 
 
@@ -131,7 +129,7 @@ npm WARN EBADENGINE Unsupported engine {
 
 ### Reason
 
-Node.js 18 has reached end of life on **April 30, 2025** \(according to the [Node.js Roadmap](https://github.com/nodejs/Release)\), and was removed from the SAP BTP, Cloud Foundry environment with `nodejs_buildpack` version **v1.8.41**.
+Node.js 18 reached end of life on **April 30, 2025** \(according to the [Node.js Roadmap](https://github.com/nodejs/Release)\), and was removed from the SAP BTP, Cloud Foundry environment with `nodejs_buildpack` version **v1.8.41**.
 
 
 

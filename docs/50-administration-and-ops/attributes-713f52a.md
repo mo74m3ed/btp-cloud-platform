@@ -4,6 +4,9 @@
 
 Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.
 
+> ### Recommendation:  
+> We recommend implementing instance-based authorizations with SAP Cloud Identity Services – Authorization Management. This topic remains relevant for managing instance-based authorizations for applications that use the "attributes" concept of the SAP Authorization and Trust Management service. Note that some applications might use authorization policies instead, which you manage in SAP Cloud Identity Services. For more information, see [Configuring Authorization Policies](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configuring-authorization-policies).
+
 A lot of applications provide purely functional role templates which grant access for all data of a certain type within your subaccount. Roles for such role templates are generated automatically. Some other applications also provide the possibility for administrators to restrict access not only by functional authorizations, but also by instance-based authorizations. That means that users can only work with a certain subset of the data in your subaccount.
 
 The restriction can be either based on information within the respective role, or on user-specific information provided by the identity provider. This makes instance-based authorizations specific for each customer because the respective roles cannot be generated automatically. Instead, administrators must create them. Typical restrictions depend on information like the user's country or cost center.

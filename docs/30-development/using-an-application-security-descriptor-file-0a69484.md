@@ -1,8 +1,8 @@
 <!-- loio0a69484539d64567ba17269f6e5ba88d -->
 
-# Add Authentication and Functional Authorization Checks to Your Application
+# Using an Application Security Descriptor File
 
-Learn how to create a security application descriptor file and use it to create a service instance of the Authorization and Trust Management service.
+Learn how to create a security application descriptor file and use it to create a service instance of the SAP Authorization and Trust Management service.
 
 
 
@@ -54,6 +54,9 @@ You declare your application security descriptor with JSON syntax and store it i
     > ```
 
 3.  Set the `attributes` element.
+
+    > ### Recommendation:  
+    > For applications, which need instance-based authorizations, we recommend to use SAP Cloud Identity Services – Authorization Management on SAP BTP.
 
     Attributes represent the data entities for which access should be restricted. They’re required if you want to define which data a user is authorized to process.
 

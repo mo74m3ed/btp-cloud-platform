@@ -12,7 +12,7 @@ For the lifecycle management of software components you can use the app *Manage 
 
 One software component is comparable to a repository in Git. These "repositories" are centrally stored in separate units and cannot be referenced by other software components, which means the transport of development objects between the components is not possible. All software components are managed by SAP.
 
-Once you have pulled a new software component to a service instance, a new structure package is created. The structure package name corresponds to the software component name. A software component itself is developed in ABAP packages in ABAP Developments Tools \(ADT\). The development objects are then uploaded to the structure package, and the software component is made available for the import to other service instances.
+Once you have pulled a new software component to a service instance, a new structure package is created. The structure package name corresponds to the software component name. A software component itself is developed in ABAP packages in ABAP Developments Tools for Eclipse. The development objects are then uploaded to the structure package, and the software component is made available for the import to other service instances.
 
 > ### Note:  
 > In your system you will see all software components linked to the same global account that is the relevant layer for software component access control. Furthermore, only the global account is relevant for the visibility of the software components. Region or infrastructure provider do not matter. You only need to ensure that all systems are created within the same global account.

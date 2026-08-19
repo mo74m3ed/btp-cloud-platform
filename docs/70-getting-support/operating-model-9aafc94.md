@@ -2,7 +2,7 @@
 
 # Operating Model
 
-This operating model defines the separation of tasks between SAP and the customer for the Cloud Foundry and Kyma runtimes.
+Learn about the shared operational responsibilities and tasks between SAP and customers for Cloud Foundry and Kyma runtimes.
 
 
 

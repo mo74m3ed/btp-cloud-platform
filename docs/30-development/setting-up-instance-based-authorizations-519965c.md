@@ -8,7 +8,7 @@ As a developer, you develop your application as you did in our previous examples
 
 Your application is used by a controller to view the expenses of their organization. So, your application shows the controller all invoices, which belong to the cost center of the controller. So, your application takes the dataset of invoices and shows the instance of that dataset where the cost center equals the cost center of the controller. Control access to this dataset by creating a role collection that includes the *CostCenter* attribute and the value required by the controller. Then assign that role collection to the user of the controller.
 
-For more information about defining attributes in the application security descriptor, see [Add Authentication and Functional Authorization Checks to Your Application](add-authentication-and-functional-authorization-checks-to-your-application-0a69484.md).
+For more information about defining attributes in the application security descriptor, see [Using an Application Security Descriptor File](using-an-application-security-descriptor-file-0a69484.md).
 
 For instance-based authorizations, you build checks against these attributes into your coding. To help you understand authorization checks against attributes, check out our sample bulletin board application on Github.
 

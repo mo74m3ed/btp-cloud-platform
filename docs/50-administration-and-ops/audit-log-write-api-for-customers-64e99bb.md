@@ -931,5 +931,5 @@ If you need support for Audit Log Write API, open a SNOW support ticket to the c
 **Related Information**  
 
 
-[Getting Support](../70-getting-support/getting-support-5dd7398.md "To get help, use the available support channels provided by SAP for Me.")
+[Getting Support](../70-getting-support/getting-support-5dd7398.md "Learn about the support channels and procedures you can use to report technical issues and get help through SAP for Me.")
 

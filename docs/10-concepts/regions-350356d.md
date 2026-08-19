@@ -72,7 +72,7 @@ Some customer contracts include EU Access, which restricts processing of persona
 **Related Information**  
 
 
-[Regions and API Endpoints Available for the Cloud Foundry Environment](regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md "")
+[Regions and API Endpoints Available for the Cloud Foundry Environment](regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md "Find the IPs you need to configure for inbound and outbound communication according to your region.")
 
 [Regions and API Endpoints for the ABAP Environment](regions-and-api-endpoints-for-the-abap-environment-879f373.md "")
 

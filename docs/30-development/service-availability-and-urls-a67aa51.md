@@ -119,5 +119,5 @@ The SAP Cloud Deployment service is available in all Cloud Foundry regions \(see
 **Related Information**  
 
 
-[Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md "")
+[Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md "Find the IPs you need to configure for inbound and outbound communication according to your region.")
 

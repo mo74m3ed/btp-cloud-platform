@@ -2,6 +2,8 @@
 
 # Regions and API Endpoints Available for the Cloud Foundry Environment
 
+Find the IPs you need to configure for inbound and outbound communication according to your region.
+
 
 
 > ### Note:  
@@ -416,7 +418,7 @@ ca20.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -468,7 +470,7 @@ cn20.platform.sapcloud.cn
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.cn20.platform.sapcloud.cn/cockpit)
+[Open Cockpit](https://cockpit.cn20.platform.sapcloud.cn/cockpit) 
 
 </td>
 </tr>
@@ -740,7 +742,7 @@ ch20.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://eu-access.cockpit.btp.cloud.sap/)
+[Open Cockpit](https://eu-access.cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -896,7 +898,7 @@ ap10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1104,10 +1106,6 @@ eu-central-1
 
 35.159.192.144/28
 
-**cf-eu10-006:**
-
-5.60.98.64/27
-
 </td>
 <td valign="top">
 
@@ -1128,10 +1126,6 @@ eu-central-1
 **cf-eu10-005:**
 
 3.78.172.245, 3.122.31.132, 18.193.56.244, 3.40.3.184/29
-
-**cf-eu10-006:**
-
-18.96.47.136/29, 18.96.47.136, 18.96.47.137, 18.96.47.138
 
 </td>
 <td valign="top">
@@ -1156,10 +1150,6 @@ api.cf.eu10-004.hana.ondemand.com
 
 api.cf.eu10-005.hana.ondemand.com
 
-**cf-eu10-006:**
-
-api.cf.eu10-006.hana.ondemand.com
-
 </td>
 <td valign="top">
 
@@ -1182,10 +1172,6 @@ eu10-004.hana.ondemand.com
 **cf-eu10-005:**
 
 eu10-005.hana.ondemand.com
-
-**cf-eu10-006:**
-
-eu10-006.hana.ondemand.com
 
 </td>
 <td valign="top">
@@ -1654,7 +1640,7 @@ il30.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1706,7 +1692,7 @@ jp30.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1758,7 +1744,7 @@ jp31.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1810,7 +1796,7 @@ sa30.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1862,7 +1848,7 @@ sa31.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2018,7 +2004,7 @@ cn40.platform.sapcloud.cn
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit)
+[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit) 
 
 </td>
 </tr>
@@ -2070,7 +2056,7 @@ ae01.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2122,7 +2108,7 @@ ap01.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2174,7 +2160,7 @@ eu01.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2226,7 +2212,7 @@ eu02.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2278,7 +2264,7 @@ jp01.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2330,7 +2316,7 @@ us01.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2382,7 +2368,7 @@ us02.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -2492,7 +2478,7 @@ us10.hana.ondemand.com
 </td>
 <td valign="top">
 
-[Trial](https://cockpit.hanatrial.ondemand.com/trial)
+[Trial](https://cockpit.hanatrial.ondemand.com/trial) 
 
 </td>
 </tr>
@@ -2566,9 +2552,13 @@ ap21.hana.ondemand.com
 **Related Information**  
 
 
+[Regions](regions-350356d.md "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.")
+
 [Regions for the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-for-kyma-environment)
 
 [Regions and API Endpoints for the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-for-abap-environment)
 
 [Regions and Hosts Available for the Neo Environment](https://help.sap.com/docs/btp/sap-btp-neo-environment/regions-and-hosts-available-for-neo-environment)
+
+[IP Allowlisting for Inbound Requests in SAP Cloud Integration](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/ip-allowlisting-for-inbound-requests?ai=true&version=Cloud)
 

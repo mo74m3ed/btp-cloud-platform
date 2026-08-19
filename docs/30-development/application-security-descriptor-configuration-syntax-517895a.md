@@ -217,7 +217,7 @@ In the application security file \(`xs-security.json`\), the `scopes` property d
 
 All scopes in the `scopes` file is used to authorize the OAuth client of the application with the correct set section are local, that is, application specific. Local scopes are checked by the application's own application router or checked programmatically within the application's runtime container. In the event that an application needs access to other services of the Cloud Foundry environment on behalf of the current user, the provided access token must contain the required foreign scopes. Foreign scopes are not provided by the application itself; they're checked by other sources outside the context of the application.
 
-In the `xs-security.json` file, “local”scopes must be prefixed with the variable *<$XSAPPNAME\>* at run time. The variable is replaced with the name of the corresponding local application name.
+In the `xs-security.json` file, “local” scopes must be prefixed with the variable *<$XSAPPNAME\>* at run time. The variable is replaced with the name of the corresponding local application name.
 
 > ### Tip:  
 > The variable *<$XSAPPNAME\>* is defined in the application's deployment manifest description \(`manifest.yml`\).

@@ -2,16 +2,9 @@
 
 # Getting Support
 
-To get help, use the available support channels provided by SAP for Me.
+Learn about the support channels and procedures you can use to report technical issues and get help through SAP for Me.
 
 
-
-> ### Note:  
-> This section is applicable for all multicloud environments. To find which environments are available in your region, see [Regions](../10-concepts/regions-350356d.md).
-
-
-
-<a name="loio5dd739823b824b539eee47b7860a00be__section_bmj_j4x_2nb"/>
 
 ## Prerequisites
 
@@ -21,14 +14,14 @@ Before you report a case, ensure the following:
 
     -   **Running on the AWS, Azure, or GCP regions:** visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
 
-        -   availability by service on *Cloud Status* tab page;
+        -   availability by service on the *Cloud Status* tab page;
 
         -   availability by region on the *Data Center* tab page.
 
 
     -   **Running on the China \(Shanghai\) region:** check [China \(Shanghai\) region status page](https://status.cn40.platform.sapcloud.cn/).
 
-    -   **Running on the Government Cloud \(US\) region:** planned downtimes and outage communication are sent through e-mail to the initial administrator of your global account.
+    -   **Running on the Government Cloud \(US\) region:** SAP sends planned downtime and outage communications via email to the initial administrator of your global account.
 
 
 -   **Check Tools Versions**
@@ -44,24 +37,29 @@ Before you report a case, ensure the following:
 
 -   **Learn the Best Practices and Offerings**
 
-    Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices and Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
+    Familiarize yourself with the guidelines on how to engage with support. See [Support from SAP Best Practices and Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
 
 
-<a name="concept_tbg_yzt_mqb"/>
 
-<!-- concept\_tbg\_yzt\_mqb -->
 
-## Procedure
+## Context
+
+> ### Note:  
+> This section is applicable for all multicloud environments. To find which environments are available in your region, see [Regions](../10-concepts/regions-350356d.md).
 
 To report a case in SAP for Me, proceed as follows:
+
+
+
+## Procedure
 
 1.  Open [SAP for Me](https://me.sap.com/home) and log on.
 
 2.  Open the *Services & Support* dashboard.
 
-3.  \(Optional\) You can use the *Knowledge Search* tab for existing solutions in:
+3.  **Optional:** You can use the *Knowledge Search* tab for existing solutions in:
 
-    -   SAP Notes & KBAs
+    -   SAP Notes & Knowledge Base Articles \(KBAs\)
 
     -   SAP Community
 
@@ -72,18 +70,23 @@ To report a case in SAP for Me, proceed as follows:
 
 4.  Use the *Get Support* application within SAP for Me to get assistance via the available support channels.
 
-    For more information about the specifics of each support channel and to learn how to create cases to report technical issues, see [Get Support Application](https://support.sap.com/cases-help).
+    -   For more information about the specifics of each support channel and to learn how to create cases to report technical issues, see [Get Support Application](https://support.sap.com/cases-help).
 
-    For any other non-technical assistance, see [Customer Interaction Center](https://support.sap.com/en/contact-us.html?anchorId=section_42886245).
-
-
+    -   For any other non-technical assistance, see [Customer Interaction Center](https://support.sap.com/en/contact-us.html?anchorId=section_42886245).
 
 
-<a name="concept_tbg_yzt_mqb__section_tzm_ygf_ldc"/>
+
+<a name="task_bls_bzb_hkc"/>
+
+<!-- task\_bls\_bzb\_hkc -->
 
 ## Creating a Support User
 
-Sometimes you might need to create a support user to troubleshoot issues in your system. For more information about how and when to create a support user, see [3543065 - Best Practices for Creating Support Users in Your BTP System](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fme.sap.com%2Fnotes%2F3543065).
+
+
+## Context
+
+You may need to create a support user to troubleshoot issues in your system. See [3543065 - Best Practices for Creating Support Users in Your BTP System](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fme.sap.com%2Fnotes%2F3543065).
 
 **Related Information**  
 
@@ -92,7 +95,7 @@ Sometimes you might need to create a support user to troubleshoot issues in your
 
 [Gather Support Information](gather-support-information-6daa475.md "The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation (during deploying/debugging applications, logging, configurations, and so on).")
 
-[Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "")
+[Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "Learn about the platform updates, including biweekly updates, immediate fixes, and major upgrades. Find out how to subscribe for notifications.")
 
 [Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html)
 

@@ -182,13 +182,11 @@ CF command line interface or SAP BTP cockpit
 > ### Note:  
 > For more information about the different steps in setting up authorization artifacts as an application developer, refer to the associated procedures in this section.
 > 
-> [Add Authentication and Functional Authorization Checks to Your Application](add-authentication-and-functional-authorization-checks-to-your-application-0a69484.md)
+> [Using an Application Security Descriptor File](using-an-application-security-descriptor-file-0a69484.md)
 > 
 > [Propagate User Information Between Applications or Services](propagate-user-information-between-applications-or-services-7daed6d.md)
 > 
 > [Set Up Your Application for Multitenancy](set-up-your-application-for-multitenancy-6083d3c.md)
-> 
-> [Setting Up Instance-Based Authorizations](setting-up-instance-based-authorizations-519965c.md)
 
 **Setting Up Authorization Artifacts \(Account Administrators\)**
 

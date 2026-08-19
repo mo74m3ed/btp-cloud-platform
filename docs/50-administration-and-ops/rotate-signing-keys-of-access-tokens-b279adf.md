@@ -167,11 +167,15 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
 
     New access tokens are now signed with the new signing key.
 
-5.  Wait for access tokens signed by the old key to expire.
+5.  To verify that the new signing key is enabled, use the following command:
+
+    `btp list security/token-key`
+
+6.  Wait for access tokens signed by the old key to expire.
 
     As long as the old signing key exists, the system still accepts digital signatures signed by that key. Once you’ve waited out the lifetime of any access tokens signed by the old key, you can delete the old key.
 
-6.  Delete the old signing key for the access token.
+7.  Delete the old signing key for the access token.
 
     Use the following command:
 

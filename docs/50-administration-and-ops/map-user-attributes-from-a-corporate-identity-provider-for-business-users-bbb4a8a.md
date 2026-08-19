@@ -464,7 +464,7 @@ Subject name identifier
 </td>
 <td valign="top">
 
-This attribute is used to by the SAP Authorization and Trust Management service to identify the user for authentication.
+This attribute is used by the SAP Authorization and Trust Management service to identify the user for authentication.
 
 Default value: ***E-Mail***.
 
